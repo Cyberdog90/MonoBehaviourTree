@@ -1,7 +1,7 @@
 using System.Threading;
 using Cysharp.Threading.Tasks;
 
-namespace Plugins.AhojSystem.Tools.MonoBehaviourTree {
+namespace Plugins.AhojSystem.MonoBehaviourTree {
     public abstract class Node {
         private CancellationTokenSource _token;
 

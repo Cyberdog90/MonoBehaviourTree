@@ -3,7 +3,7 @@ using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace Plugins.AhojSystem.Tools.MonoBehaviourTree.TerminalNode {
+namespace Plugins.AhojSystem.MonoBehaviourTree.TerminalNode {
     public class Log : TerminalNode {
         private readonly string _logText;
 

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading;
 using Cysharp.Threading.Tasks;
-using Plugins.AhojSystem.Tools.MonoBehaviourTree.ForeignerNode.ExternalNode;
+using Plugins.AhojSystem.MonoBehaviourTree.ForeignerNode.ExternalNode;
 using UnityEngine;
 
-namespace Plugins.AhojSystem.Tools.MonoBehaviourTree.TerminalNode {
+namespace Plugins.AhojSystem.MonoBehaviourTree.TerminalNode {
     public class ExternalJoint : TerminalNode {
         private readonly ICustomAction _customAction;
 

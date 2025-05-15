@@ -3,7 +3,7 @@ using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace Plugins.AhojSystem.Tools.MonoBehaviourTree.DecoratorNode {
+namespace Plugins.AhojSystem.MonoBehaviourTree.DecoratorNode {
     public class Success : DecoratorNode {
         protected override async UniTask<NodeResult> EvaluateInternal(CancellationToken token) {
             var cts = new CancellationTokenSource();

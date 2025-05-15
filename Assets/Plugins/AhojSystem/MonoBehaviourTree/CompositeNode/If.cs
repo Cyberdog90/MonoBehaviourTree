@@ -5,7 +5,7 @@ using Cysharp.Threading.Tasks;
 using Plugins.AhojSystem.Tools.Utils.ExtensionMethods;
 using UnityEngine;
 
-namespace Plugins.AhojSystem.Tools.MonoBehaviourTree.CompositeNode {
+namespace Plugins.AhojSystem.MonoBehaviourTree.CompositeNode {
     public class If : CompositeNode {
         private readonly Func<bool> _ifExpr;
         private readonly List<Func<bool>> _elseIfExprs;

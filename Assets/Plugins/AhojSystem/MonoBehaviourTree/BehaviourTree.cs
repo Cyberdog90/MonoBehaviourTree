@@ -2,7 +2,7 @@
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace Plugins.AhojSystem.Tools.MonoBehaviourTree {
+namespace Plugins.AhojSystem.MonoBehaviourTree {
     public class BehaviourTree {
         private readonly Node _child;
         private CancellationTokenSource _cts;

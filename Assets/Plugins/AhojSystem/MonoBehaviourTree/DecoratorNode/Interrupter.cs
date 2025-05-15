@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading;
 using Cysharp.Threading.Tasks;
-using Plugins.AhojSystem.Tools.MonoBehaviourTree.ForeignerNode.ExternalNode;
+using Plugins.AhojSystem.MonoBehaviourTree.ForeignerNode.ExternalNode;
 using UnityEngine;
 
-namespace Plugins.AhojSystem.Tools.MonoBehaviourTree.DecoratorNode {
+namespace Plugins.AhojSystem.MonoBehaviourTree.DecoratorNode {
     public class Interrupter : DecoratorNode {
         private readonly ICustomAction _interrupter;
 

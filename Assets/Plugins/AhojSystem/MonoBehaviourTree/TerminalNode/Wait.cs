@@ -3,7 +3,7 @@ using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace Plugins.AhojSystem.Tools.MonoBehaviourTree.TerminalNode {
+namespace Plugins.AhojSystem.MonoBehaviourTree.TerminalNode {
     public class Wait : TerminalNode {
         private readonly float _waitingTime;
 

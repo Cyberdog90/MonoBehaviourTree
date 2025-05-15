@@ -3,7 +3,7 @@ using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace Plugins.AhojSystem.Tools.MonoBehaviourTree.DecoratorNode {
+namespace Plugins.AhojSystem.MonoBehaviourTree.DecoratorNode {
     public class LogResult : DecoratorNode {
         private readonly string _resultText;
 

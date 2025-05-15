@@ -3,7 +3,7 @@ using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace Plugins.AhojSystem.Tools.MonoBehaviourTree.TerminalNode {
+namespace Plugins.AhojSystem.MonoBehaviourTree.TerminalNode {
     public class Nothing : TerminalNode {
         protected override async UniTask<NodeResult> EvaluateInternal(CancellationToken token) {
             try {

@@ -1,4 +1,4 @@
-﻿namespace Plugins.AhojSystem.Tools.MonoBehaviourTree.DecoratorNode {
+﻿namespace Plugins.AhojSystem.MonoBehaviourTree.DecoratorNode {
     public abstract class DecoratorNode : Node {
         protected Node Child;
 

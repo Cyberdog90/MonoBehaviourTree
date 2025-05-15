@@ -1,4 +1,4 @@
-﻿namespace Plugins.AhojSystem.Tools.MonoBehaviourTree {
+﻿namespace Plugins.AhojSystem.MonoBehaviourTree {
     public enum NodeResult {
         Success,
         Failure

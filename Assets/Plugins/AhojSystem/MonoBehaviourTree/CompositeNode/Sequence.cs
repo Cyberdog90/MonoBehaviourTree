@@ -3,7 +3,7 @@ using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace Plugins.AhojSystem.Tools.MonoBehaviourTree.CompositeNode {
+namespace Plugins.AhojSystem.MonoBehaviourTree.CompositeNode {
     public class Sequence : CompositeNode {
         public Sequence Add(Node node) {
             Children.Add(node);

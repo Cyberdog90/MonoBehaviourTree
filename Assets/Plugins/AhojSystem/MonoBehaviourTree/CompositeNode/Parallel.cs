@@ -3,7 +3,7 @@ using System.Linq;
 using System.Threading;
 using Cysharp.Threading.Tasks;
 
-namespace Plugins.AhojSystem.Tools.MonoBehaviourTree.CompositeNode {
+namespace Plugins.AhojSystem.MonoBehaviourTree.CompositeNode {
     public class Parallel : CompositeNode {
         public Parallel Add(Node node) {
             Children.Add(node);
